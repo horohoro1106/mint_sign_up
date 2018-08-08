@@ -1,0 +1,139 @@
+main { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .logos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .logos__services {
+    display: flex;
+    flex-direction: row;
+    color: grey;
+  }
+
+  .logos__services li {
+    list-style: none;
+  }
+  
+  .logos__services__icon {
+    height: 23px;
+    width: 23px;
+  }
+  
+  .logos__main-logo {
+    background-image: url('https://accounts.intuit.com/images/v2/ecosystem_logos_new.png');
+    width: 117px;
+    height: 40px;;
+  }
+  
+  .logos__other-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 20px;
+  }
+  
+  .logos__other-logos  li{
+    display: inline-block;
+    transform: scale(1.1);
+    margin-left: 7px;
+  }
+  
+  .logos__favicon {
+    height: 20px;
+    width: 20px;
+    margin-left: 5px;
+  }
+  
+  
+  .create-acc {
+    background-color: #fff;
+    width: 50%;
+    max-width: 380px;
+    height: 640px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+  }
+  
+  .create-acc__title {
+    margin: 0;
+    font-weight: normal;
+  }
+  
+  .create-acc__description {
+    width: 80%;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 0;
+  }
+  
+  .create-acc__form {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    min-width: 350px;
+  }
+  
+  .create-acc__p {
+    margin-top: 5px;
+  }
+  
+  .create-acc__form input {
+    border:1px solid grey;
+    border-radius: 3px;
+    height: 40px;
+  }
+  
+  .create-acc__form input:focus {
+    border:1px solid rgb(0, 119, 197);
+  }
+  
+  .create-acc__p-small {
+    font-size: 13px;
+    margin:2px;
+  }
+  
+  .create-acc__label {
+    margin-top: 20px;
+  }
+  
+  .create-acc__btn {
+    width: 99%;
+    height: 50px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #0077C5;
+    align-self: center;
+    margin-top: 15px;
+    border: 1px solid #0077c5;
+    border-radius: 5px;
+  }
+  
+  .create-acc__lock-icon{
+    background-image: url('https://accounts.intuit.com/IUS-Plugins/v2/images/lock-left-grey@3x.png');
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    background-size: contain;
+    position: relative;
+    bottom: 32px;
+    left: 310px;
+  }
+  
+  .create-acc__footer {
+    font-size: 13px;
+    padding: 5px;
+    text-align: center;
+    margin-top: 15px;
+    line-height: 2;
+  }
